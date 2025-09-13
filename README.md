@@ -43,23 +43,24 @@ Standardized frontend template for projects in the Inkubator IT GitHub organizat
 ### Getting started (local development)
 1) Create a new repository using this template in the Inkubator IT organization.
 2) Clone your new repository.
-3) Install dependencies:
+3) Copy the `.env.example` file to `.env` and fill in the values.
+4) Install dependencies:
 ```sh
 bun install
 ```
-4) Start the dev server (hot reload):
+5) Start the dev server (hot reload):
 ```sh
 bun run dev
 ```
-5) Open `http://localhost:5173` (default Vite port).
+6) Open `http://localhost:5173` (default Vite port).
 
 ### Environment variables
 Vite reads env files and exposes variables that start with `VITE_` to the client.
 
-- Place env files at the project root: `.env`, `.env.local`, `.env.development`, etc.
+- Place env files at the project root: `.env`, `.env.development`, etc.
 - Prefix variables with `VITE_`.
 
-Example `.env.local`:
+Example `.env`:
 ```env
 VITE_API_BASE_URL="http://localhost:3000"
 ```
