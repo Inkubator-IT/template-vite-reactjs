@@ -14,6 +14,7 @@
 	"dependencies": {
 		"@radix-ui/react-slot": "^1.2.3",
 		"@tailwindcss/vite": "^4.1.13",
+		"@tanstack/react-query": "^5.90.2",
 		"class-variance-authority": "^0.7.1",
 		"clsx": "^2.1.1",
 		"lucide-react": "^0.542.0",
@@ -31,6 +32,9 @@
 		"globals": "^16.3.0",
 		"tw-animate-css": "^1.3.8",
 		"typescript": "~5.8.3",
-		"vite": "^7.1.2"
+		"vite": "npm:rolldown-vite@latest"
+	},
+	"overrides": {
+		"vite": "npm:rolldown-vite@latest"
 	}
 }
